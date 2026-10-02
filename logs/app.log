@@ -1,0 +1,12 @@
+2026-10-02 15:14:16,645 - main_app - INFO - Starting diagnostic pipeline for site: SITE-01
+2026-10-02 15:47:26 | main_app | INFO | Starting diagnostic pipeline for site: SITE-01
+2026-10-02 15:47:26 | ml_predict | WARNING | Model file missing/empty: ml\models\solar_fault_model.pkl. Using fallback.
+2026-10-02 15:47:26 | ml_predict | INFO | Creating fallback dummy model...
+2026-10-02 15:47:27 | ml_predict | WARNING | Label encoder missing. Using default mapping.
+2026-10-02 15:47:27 | ml_predict | INFO | Prediction: Normal (confidence: 30.00%)
+2026-10-02 15:47:27 | main_app | INFO | Pipeline finished. Generating report...
+2026-10-02 15:49:25 | ml_predict | WARNING | Model file missing/empty: ml\models\solar_fault_model.pkl. Using fallback.
+2026-10-02 15:49:26 | ml_predict | INFO | Creating fallback dummy model...
+2026-10-02 15:49:26 | ml_predict | WARNING | Label encoder missing. Using default mapping.
+2026-10-02 15:49:26 | ml_predict | INFO | Prediction: Wiring_Fault (confidence: 60.00%)
+
