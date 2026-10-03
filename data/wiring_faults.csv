@@ -1,0 +1,6 @@
+timestamp,site_id,fault_type,resistance_ohm,location,status
+2026-10-01T08:00:00,SITE-01,None,0.05,String-1,Normal
+2026-10-01T09:00:00,SITE-01,None,0.06,String-2,Normal
+2026-10-01T10:00:00,SITE-01,Grounding_Fault,2.50,Junction-Box-A,Wiring_Fault
+2026-10-01T11:00:00,SITE-02,None,0.05,String-1,Normal
+2026-10-01T12:00:00,SITE-02,Corroded_Connection,1.80,Terminal-B3,Loose_Corroded_Wiring
