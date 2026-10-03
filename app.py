@@ -262,3 +262,4 @@ if __name__ == "__main__":
     result = manager(payload)
     print("\n--- FINAL DIAGNOSTIC REPORT ---")
     print(json.dumps(result.get('final_report', {}), indent=4))
+    
