@@ -225,3 +225,4 @@ with tab_analytics:
         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False)
     )
     st.plotly_chart(fig_topo, use_container_width=True)
+    
